@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PDOS - Temperature</title>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: Home – 22;
+		--web-view-id: Home__22;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Home__22;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Home__22 {
+		position: absolute;
+		width: 1360px;
+		height: 768px;
+		background-color: rgba(68,67,69,1);
+		overflow: hidden;
+		--web-view-name: Home – 22;
+		--web-view-id: Home__22;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+
+	}
+	#Rectangle_89_b {
+		opacity: 0.489;
+		fill: url(#Rectangle_89_b);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_89_b {
+		width: 1360px;
+		height: 768px;
+		position: absolute;
+		overflow: visible;
+		transform: matrix(1,0,0,1,0,-2) rotate(180deg);
+		transform-origin: center;
+	}
+	#Group_203 {
+		position: absolute;
+		width: 342.981px;
+		height: 592.063px;
+		left: 389.832px;
+		top: 117.818px;
+		overflow: visible;
+	}
+	#Path_9 {
+		fill: rgba(86,161,164,1);
+	}
+	.Path_9 {
+		overflow: visible;
+		position: absolute;
+		width: 274.158px;
+		height: 592.063px;
+		left: 0.002px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_10 {
+		fill: rgba(231,227,222,1);
+	}
+	.Path_10 {
+		overflow: visible;
+		position: absolute;
+		width: 211.799px;
+		height: 491.865px;
+		left: 31.566px;
+		top: 68.331px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_242 {
+		position: absolute;
+		width: 105.625px;
+		height: 274.701px;
+		left: 237.355px;
+		top: 21.331px;
+		overflow: visible;
+	}
+	#Group_15 {
+		position: absolute;
+		width: 105.625px;
+		height: 18.895px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_11 {
+		fill: rgba(231,227,222,1);
+	}
+	.Path_11 {
+		overflow: visible;
+		position: absolute;
+		width: 105.625px;
+		height: 18.895px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_16 {
+		position: absolute;
+		width: 105.625px;
+		height: 18.895px;
+		left: 0px;
+		top: 63.962px;
+		overflow: visible;
+	}
+	#Path_12 {
+		fill: rgba(231,227,222,1);
+	}
+	.Path_12 {
+		overflow: visible;
+		position: absolute;
+		width: 105.625px;
+		height: 18.895px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_13 {
+		fill: rgba(231,227,222,1);
+	}
+	.Path_13 {
+		overflow: visible;
+		position: absolute;
+		width: 105.625px;
+		height: 18.895px;
+		left: 0px;
+		top: 127.91px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_18 {
+		position: absolute;
+		width: 105.625px;
+		height: 18.895px;
+		left: 0px;
+		top: 191.857px;
+		overflow: visible;
+	}
+	#Path_14 {
+		fill: rgba(231,227,222,1);
+	}
+	.Path_14 {
+		overflow: visible;
+		position: absolute;
+		width: 105.625px;
+		height: 18.895px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_19 {
+		position: absolute;
+		width: 105.625px;
+		height: 18.895px;
+		left: 0px;
+		top: 255.805px;
+		overflow: visible;
+	}
+	#Path_15 {
+		fill: rgba(231,227,222,1);
+	}
+	.Path_15 {
+		overflow: visible;
+		position: absolute;
+		width: 105.625px;
+		height: 18.895px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#n_9oF {
+		left: 816px;
+		top: 225px;
+		position: absolute;
+		overflow: visible;
+		width: 230px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Shree Devanagari 714;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 120px;
+		color: rgba(231,227,222,1);
+	}
+	#Group_240 {
+		position: absolute;
+		width: 130.138px;
+		height: 55.636px;
+		left: 61.863px;
+		top: 62.182px;
+		overflow: visible;
+	}
+	#Group_202 {
+		position: absolute;
+		width: 130.138px;
+		height: 55.636px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		--web-animation: fadein 0.3s linear;
+		--web-action-type: page;
+		--web-action-target: Home___26.html;
+		cursor: pointer;
+	}
+	#Path_88 {
+		fill: rgba(86,161,164,1);
+	}
+	.Path_88 {
+		overflow: visible;
+		position: absolute;
+		width: 130.137px;
+		height: 55.636px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_89 {
+		fill: rgba(235,230,225,1);
+	}
+	.Path_89 {
+		overflow: visible;
+		position: absolute;
+		width: 12.377px;
+		height: 20.759px;
+		left: 19.723px;
+		top: 13.791px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_200 {
+		position: absolute;
+		width: 130.138px;
+		height: 55.636px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_199 {
+		position: absolute;
+		width: 130.139px;
+		height: 55.636px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+</style>
+</head>
+<body>
+<a href="home">
+<div id="Home__22">
+
+	<!--Gradient-->
+	<svg class="Rectangle_89_b">
+		<linearGradient id="Rectangle_89_b" spreadMethod="pad" x1="0.5" x2="0.5" y1="1.055" y2="-0.156">
+			<stop offset="0" stop-color="#ebe6e1" stop-opacity="0"></stop>
+			<stop offset="1" stop-color="#f2a948" stop-opacity="1"></stop>
+		</linearGradient>
+		<rect id="Rectangle_89_b" rx="0" ry="0" x="0" y="0" width="1360" height="768">
+		</rect>
+	</svg>
+
+
+	<div id="Group_203">
+		<svg class="Path_9" viewBox="274.118 44.927 274.159 592.063">
+			<path id="Path_9" d="M 468.0037536621094 392.4393615722656 L 468.0037536621094 89.89293670654297 C 468.0037536621094 65.16684722900391 446.3591003417969 44.927001953125 419.8807678222656 44.927001953125 L 402.5142822265625 44.927001953125 C 376.0522766113281 44.927001953125 354.391357421875 65.16684722900391 354.391357421875 89.89293670654297 L 354.391357421875 392.4393615722656 C 307.0765380859375 412.634765625 274.1181945800781 457.1267395019531 274.1181945800781 508.903564453125 C 274.1181945800781 579.646728515625 335.4873962402344 636.9904174804688 411.1975402832031 636.9904174804688 C 486.9072265625 636.9904174804688 548.27734375 579.646728515625 548.27734375 508.903564453125 C 548.27734375 457.1267395019531 515.3344116210938 412.634765625 468.0037536621094 392.4393615722656 Z">
+			</path>
+		</svg>
+		<svg class="Path_10" viewBox="276.603 51.294 211.799 491.865">
+			<path id="Path_10" d="M 406.2723083496094 350.8959045410156 L 406.2723083496094 69.22335815429688 C 406.2723083496094 59.36618041992188 397.5130310058594 51.29396820068359 386.7963256835938 51.29396820068359 L 378.2257690429688 51.29396820068359 C 367.5089721679688 51.29396820068359 358.7329711914062 59.36618041992188 358.7329711914062 69.22335815429688 L 358.7329711914062 350.8959045410156 C 311.7080688476562 360.8320617675781 276.60302734375 399.4866943359375 276.60302734375 445.7398071289062 C 276.60302734375 499.5436706542969 324.0224914550781 543.1585083007812 382.5023193359375 543.1585083007812 C 440.9994812011719 543.1585083007812 488.4018249511719 499.5436706542969 488.4018249511719 445.7398071289062 C 488.4018249511719 399.4866943359375 453.2966918945312 360.8320617675781 406.2723083496094 350.8959045410156 Z">
+			</path>
+		</svg>
+		<div id="Group_242">
+			<div id="Group_15">
+				<svg class="Path_11" viewBox="288.436 47.481 105.625 18.895">
+					<path id="Path_11" d="M 384.6134643554688 66.37639617919922 L 297.8836669921875 66.37639617919922 C 292.6495971679688 66.37639617919922 288.4360961914062 62.16273498535156 288.4360961914062 56.92868041992188 C 288.4360961914062 51.71361541748047 292.6495971679688 47.48101806640625 297.8836669921875 47.48101806640625 L 384.6134643554688 47.48101806640625 C 389.847412109375 47.48101806640625 394.0609741210938 51.71361541748047 394.0609741210938 56.92868041992188 C 394.0609741210938 62.16273498535156 389.847412109375 66.37639617919922 384.6134643554688 66.37639617919922 Z">
+					</path>
+				</svg>
+			</div>
+			<div id="Group_16">
+				<svg class="Path_12" viewBox="288.436 52.035 105.625 18.895">
+					<path id="Path_12" d="M 384.6134643554688 70.93037414550781 L 297.8836669921875 70.93037414550781 C 292.6495971679688 70.93037414550781 288.4360961914062 66.69783020019531 288.4360961914062 61.48269653320312 C 288.4360961914062 56.24864959716797 292.6495971679688 52.03498077392578 297.8836669921875 52.03498077392578 L 384.6134643554688 52.03498077392578 C 389.847412109375 52.03498077392578 394.0609741210938 56.24864959716797 394.0609741210938 61.48269653320312 C 394.0609741210938 66.69783020019531 389.847412109375 70.93037414550781 384.6134643554688 70.93037414550781 Z">
+					</path>
+				</svg>
+			</div>
+			<svg class="Path_13" viewBox="288.436 56.588 105.625 18.895">
+				<path id="Path_13" d="M 384.6134643554688 75.48335266113281 L 297.8836669921875 75.48335266113281 C 292.6495971679688 75.48335266113281 288.4360961914062 71.25077819824219 288.4360961914062 66.03564453125 C 288.4360961914062 60.82049560546875 292.6495971679688 56.58798217773438 297.8836669921875 56.58798217773438 L 384.6134643554688 56.58798217773438 C 389.847412109375 56.58798217773438 394.0609741210938 60.82049560546875 394.0609741210938 66.03564453125 C 394.0609741210938 71.25077819824219 389.847412109375 75.48335266113281 384.6134643554688 75.48335266113281 Z">
+				</path>
+			</svg>
+			<div id="Group_18">
+				<svg class="Path_14" viewBox="288.436 61.141 105.625 18.895">
+					<path id="Path_14" d="M 384.6134643554688 80.03632354736328 L 297.8836669921875 80.03632354736328 C 292.6495971679688 80.03632354736328 288.4360961914062 75.80373382568359 288.4360961914062 70.58860015869141 C 288.4360961914062 65.37361907958984 292.6495971679688 61.14101409912109 297.8836669921875 61.14101409912109 L 384.6134643554688 61.14101409912109 C 389.847412109375 61.14101409912109 394.0609741210938 65.37361907958984 394.0609741210938 70.58860015869141 C 394.0609741210938 75.80373382568359 389.847412109375 80.03632354736328 384.6134643554688 80.03632354736328 Z">
+					</path>
+				</svg>
+			</div>
+			<div id="Group_19">
+				<svg class="Path_15" viewBox="288.436 65.694 105.625 18.895">
+					<path id="Path_15" d="M 384.6134643554688 84.58943176269531 L 297.8836669921875 84.58943176269531 C 292.6495971679688 84.58943176269531 288.4360961914062 80.35682678222656 288.4360961914062 75.14169311523438 C 288.4360961914062 69.90763854980469 292.6495971679688 65.6939697265625 297.8836669921875 65.6939697265625 L 384.6134643554688 65.6939697265625 C 389.847412109375 65.6939697265625 394.0609741210938 69.90763854980469 394.0609741210938 75.14169311523438 C 394.0609741210938 80.35682678222656 389.847412109375 84.58943176269531 384.6134643554688 84.58943176269531 Z">
+					</path>
+				</svg>
+			</div>
+		</div>
+	</div>
+
+	<!--Temp Text-->
+	<div id="n_9oF">
+		<span> {{fahr_temp}}</span><span style="vertical-align:super;">o</span><span>F</span>
+	</div>
+
+</div>
+</a>
+</body>
+</html>

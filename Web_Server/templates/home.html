@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PDOS - Home</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width:1275px;
+  height:720px;
+  background-image: url('static/2bgradient.png');
+}
+
+.column {
+  float: left;
+  width: 31%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding: 2px;
+}
+
+.center {
+  margin-left: 75px;
+
+  width: 100%;
+  padding: 1px;
+}
+
+</style>
+</head>
+<body>
+
+<div class = "center">
+<div class="row">
+  <div class="column">
+      <a href="battery"><img src="static/battery.png" alt="battery" style="width:90%"></a>
+  </div>
+  <div class="column">
+    <a href="grid"><img src="static/grid.png" alt="grid" style="width:90%"></a>
+  </div>
+  <div class="column">
+    <a href="solar"><img src="static/solar.png" alt="solar" style="width:90%"></a>
+  </div>
+</div>
+<div class="row2">
+  <div class="column">
+    <a href="powerslots"><img src="static/powerslots.png" alt="powerslots" style="width:90%"></a>
+  </div>
+  <div class="column">
+    <img src="static/weather.png" alt="weather" style="width:90%">
+  </div>
+  <div class="column">
+    <a href="temp"><img src="static/temperature.png" alt="temperature" style="width:90%"></a>
+  </div>
+</div>
+</div>
+
+</body>
+</html>

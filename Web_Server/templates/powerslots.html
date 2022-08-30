@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PDOS - Power Slots</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2b2b2b;
+  background-image: url('static/background.png');
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.center {
+  margin: auto;
+  width: 100%;
+  padding: 50px;
+}
+
+</style>
+</head>
+<body>
+<a href="home">
+<div class = "center">
+
+
+<div class="row">
+  <img src="">
+</div>
+<div class="row">
+  <img src="">
+</div>
+<div class="row">
+  <img src="">
+</div>
+<div class="row">
+  <img src="">
+</div>
+<div class="row">
+  <img src="">
+</div>
+<div class="row">
+  <img src="">
+</div>
+<div class="row">
+  <img src="">
+</div>
+
+<div class="row">
+<!--Column 1, Empty-->
+  <div class="column">
+      <img src="">
+  </div>
+
+  <!--Column 2, Slot 1-->
+  <div class="column">
+    {% if slot1 == 1 %}
+      <img src="static/solarslot1.png" alt="Slot 1" style="width:90%">
+    {% elif slot1 == 2 %}
+      <img src="static/batteryslot1.png" alt="Slot 1" style="width:90%">
+    {% elif slot1 == 0 %}
+      <img src="static/emptyslot1.png" alt="Slot 2" style="width:90%">
+    {% else %}
+      <img src="static/gridslot1.png" alt="Slot 1" style="width:90%">
+    {% endif %}
+  </div>
+
+  <!--Column 3, Slot 2-->
+  <div class="column">
+    {% if slot2 == 1 %}
+      <img src="static/solarslot1.png" alt="Slot 2" style="width:90%">
+    {% elif slot2 == 2 %}
+      <img src="static/batteryslot2.png" alt="Slot 2" style="width:90%">
+    {% elif slot2 == 0 %}
+      <img src="static/emptyslot2.png" alt="Slot 2" style="width:90%">
+    {% else %}
+      <img src="static/gridslot2.png" alt="Slot 2" style="width:90%">
+    {% endif %}
+  </div>
+
+  <!--Column 4, Empty-->
+  <div class="column">
+      <img src="">
+  </div>
+</div>
+
+
+<div class="row">
+
+  <div class="column">
+      <img src="">
+  </div>
+
+  <div class="column">
+      <h1 style = "color:white">&nbsp;&nbsp;&nbsp;&nbsp;Power Slot #1</h1>
+  </div>
+
+  <div class="column">
+    <h1 style = "color:white">&nbsp;&nbsp;&nbsp;&nbsp;Power Slot #2</h1>
+  </div>
+</div>
+
+<div class="column">
+    <img src="">
+</div>
+
+
+
+</div>
+
+
+
+</a>
+</body>
+</html>
