@@ -227,7 +227,13 @@ PDOS gathers input data for its algorithms using online data provided by website
 
 ## User Interface
 
-The first iteration of PDOS used a webpage hosted by a flask python webserver hosted on a Raspberry Pi 3, and it dynamically displayed battery power, grid power, solar power, current temperature, and the currently occupied power slots for PDOS.
+PDOS uses a webpage hosted by a flask python webserver to dynamically displayed battery power, grid power, solar power, current temperature, and the currently occupied power slots for PDOS.
 
 
-Since then, the user interface has been redesigned into a mobile app using flutter. That project can be found [here]().
+
+![collage](https://user-images.githubusercontent.com/110949954/187395328-8ae6fe95-7f9a-42e2-9146-5d3903cc62e0.png)
+
+&nbsp;
+
+### Update 
+The user interface for PDOS has been redesigned into a mobile app using flutter. That project can be found [here](https://github.com/Christopher-M-Jones/PDOS-Mobile-Application).
